@@ -3,10 +3,12 @@
         width: 280px;
     }
     width: 40%;
+    margin:10px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius:10px;
+    box-shadow: 1px 1px 3px 1px rgb(95, 30, 168);
     img {
         max-width: 220px;
-    }
-    .product-container{
-        font-size: 14px;
     }
 }

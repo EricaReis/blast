@@ -94,7 +94,7 @@ class AdminNavbar extends React.Component {
               </Nav>
             </UncontrolledCollapse>
           </Container>
-          <div className="d-md-none align-items-center">
+          <div className="d-md-none mx-auto">
             <Form className="navbar-search navbar-search-dark form-inline search-mobile">
               <FormGroup className="mb-0">
                 <InputGroup className="input-group-alternative">

@@ -14,12 +14,15 @@ import ForcaDeVendas from "./ForcaDeVendas";
 
 const items = [
   {
+    id: 1,
     src: 'https://www.fiercepc.co.uk/media/wysiwyg/PC-BUNDLE-BANNER.jpg',
   },
   {
+    id: 2,
     src: 'https://www.fiercepc.co.uk/media/wysiwyg/PC-BUNDLE-BANNER.jpg',
   },
   {
+    id: 3,
     src: 'https://www.fiercepc.co.uk/media/wysiwyg/PC-BUNDLE-BANNER.jpg',
   }
 ];
@@ -50,7 +53,7 @@ export default function Home() {
       <CarouselItem
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
-        key={item.src}
+        key={item.id}
       >
         <img style={{ width: '100%'}} src={item.src} alt='banner-home' />
       </CarouselItem>
