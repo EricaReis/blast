@@ -7,10 +7,14 @@ import './styles.scss'
 export default function Spotlight() {
     return (
         <div className='spotlight-container'>
-            <Product />
-            <Product />
-            <Product />
-            <Product />
+            <h4 className='text-center destaques'>Destaques</h4>
+            <div className="spotlight-row">
+
+            <Product name='PC gamer Neon' />
+            <Product name='mouse fodao' />
+            <Product name='super teclado' />
+            <Product name='headset' />
+            </div>
         </div>
     )
 }

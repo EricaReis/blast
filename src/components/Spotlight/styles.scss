@@ -1,4 +1,10 @@
 .spotlight-container {
-    display: flex;
-    flex-direction: row;
+    .spotlight-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .destaques{
+        font-size:25px;
+    }
 }

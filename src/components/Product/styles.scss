@@ -1,5 +1,12 @@
 .product-container {
+    @media screen and( min-width: 768px){
+        width: 280px;
+    }
+    width: 40%;
     img {
         max-width: 220px;
+    }
+    .product-container{
+        font-size: 14px;
     }
 }
