@@ -36,7 +36,7 @@ class AdminNavbar extends React.Component {
               <span className="navbar-toggler-icon" />
             </button>
             <NavbarBrand to="/" tag={Link}>
-              <img alt="..." src={require("assets/img/brand/logo.png")} />
+              <img style={{ height: '60px'}} alt="..." src={require("assets/img/brand/logobranco.png")}/>
             </NavbarBrand>
             <div className="d-md-none">
               <i className='ni ni-cart cart-icon' />
@@ -46,11 +46,10 @@ class AdminNavbar extends React.Component {
                 <Row>
                   <Col className="collapse-brand" xs="6">
                     <Link to="/">
-                      <img 
+                      <img
                         alt="..."
-                        src={require("assets/img/brand/logo.png")}
+                        src={require("assets/img/brand/logobranco.png")}
                       />
-                      Blast
                     </Link>
                   </Col>
                   <Col className="collapse-close" xs="6">

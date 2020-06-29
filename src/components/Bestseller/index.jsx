@@ -14,7 +14,7 @@ export default function Bestseller() {
 
     async function fetchProducts() {
         try {
-            const { data } = await api.get("destaques")
+            const { data } = await api.get("lancamentos")
 
             setProducts(data)
         } catch (error) {

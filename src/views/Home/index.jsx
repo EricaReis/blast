@@ -18,15 +18,11 @@ import './styles.scss';
 const items = [
   {
     id: 1,
-    src: 'https://www.fiercepc.co.uk/media/wysiwyg/PC-BUNDLE-BANNER.jpg',
+    src: 'https://dm2306files.storage.live.com/y4p9zkSltkjkkMXHZS6aAWZijrgVZR6TNSAnlsDp6Jzj71NBATq2lyngPuIuj1xOiJ0L4933FS-0dJ_ZLFoQFejLmQ6ZBnlSUxNQeOGbJjY8Q1b-XaBbSDiiwpUXKeL6qte4b7nlC2_KyO2WyIQtmmw4XrOgcgY9KG_X9VIfpKeIe9xG9TKOD6oMmPB3SJWfVKKJVNbbeW2Gb_-WKmhQlrljl_yKpyXUY653raZaVbktrE/CAPA3.jpg?psid=1&width=1544&height=416',
   },
   {
     id: 2,
-    src: 'https://www.fiercepc.co.uk/media/wysiwyg/PC-BUNDLE-BANNER.jpg',
-  },
-  {
-    id: 3,
-    src: 'https://www.fiercepc.co.uk/media/wysiwyg/PC-BUNDLE-BANNER.jpg',
+    src: 'https://dm2306files.storage.live.com/y4pGGxKRP8HObrKJs8XXD_I47cQvoTrboU3IgMwsTppEsGBrttBaSW9Dugh5AqntAZiaVfN0kiLz2aBZ9XPWJP1g75yPshARqx4Fn5U3aqjZxP46mVsYbYMe8_1af8Kig0oZvggTrtonJUTEnwhMyDMjJrzhStELPPJ-StpBa7efpQLq2LuB6-LKD-As8hSPrdS2KmSHayyOwM6hvceGuj5y892OHP6R0tuo0c5NaMXJw8/CAPA%204.jpg?psid=1&width=1538&height=412',
   }
 ];
 
