@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from 'react'
 
 import Product from 'components/Product';
+
 import api from 'config/api';
 import './styles.scss'
 
-export default function Spotlight() {
+export default function Bestseller() {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
         fetchProducts();
     }, [])
 
-    async function fetchProducts(){
+    async function fetchProducts() {
         try {
             const { data } = await api.get("destaques")
 
@@ -20,16 +21,16 @@ export default function Spotlight() {
             console.log(error)
         }
     }
-
     return (
-        <div className='spotlight-container'>
-            <div className="align-spotlight mt-md-3">
-            <h4 className='text-center destaques'>Destaques</h4>
+        <div className='bestseller-container'>
+            <div className="align-bestseller mt-md-3">
+                <h4 className='text-center bestsellers my-3'>Lançamentos</h4>
             </div>
-            <div className="spotlight-row">
-            {products && products.map(product => (
-                <Product product={product} />
-            ))}
+            <div className="bestseller-row">
+
+                {products && products.map(product => (
+                    <Product product={product} />
+                ))}
             </div>
         </div>
     )

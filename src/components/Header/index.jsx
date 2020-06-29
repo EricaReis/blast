@@ -48,8 +48,9 @@ class AdminNavbar extends React.Component {
                     <Link to="/">
                       <img 
                         alt="..."
-                        src={require("assets/img/brand/argon-react.png")}
+                        src={require("assets/img/brand/logo.png")}
                       />
+                      Blast
                     </Link>
                   </Col>
                   <Col className="collapse-close" xs="6">
@@ -70,7 +71,7 @@ class AdminNavbar extends React.Component {
                         <i className="fas fa-search" />
                       </InputGroupText>
                     </InputGroupAddon>
-                    <Input placeholder="Search" type="text" />
+                    <Input placeholder="Pesquisa" type="text" />
                   </InputGroup>
                 </FormGroup>
               </Form>
@@ -85,10 +86,30 @@ class AdminNavbar extends React.Component {
                     <span className="nav-link-inner--text">Perfil</span>
                   </NavLink>
                 </NavItem>
-                <NavItem>
+                <NavItem className="d-none d-md-block">
                   <NavLink className="nav-link-icon" to="/" tag={Link}>
                     <i className="ni ni-cart" />
                     <span className="nav-link-inner--text">Carrinho</span>
+                  </NavLink>
+                </NavItem>
+                <NavItem className="d-md-none">
+                  <NavLink className="nav-link-icon" to="/" tag={Link}>
+                    <span className="nav-link-inner--text">Mouses</span>
+                  </NavLink>
+                </NavItem>
+                <NavItem className="d-md-none">
+                  <NavLink className="nav-link-icon" to="/" tag={Link}>
+                    <span className="nav-link-inner--text">Headsets</span>
+                  </NavLink>
+                </NavItem>
+                <NavItem className="d-md-none">
+                  <NavLink className="nav-link-icon" to="/" tag={Link}>
+                    <span className="nav-link-inner--text">Teclados</span>
+                  </NavLink>
+                </NavItem>
+                <NavItem className="d-md-none">
+                  <NavLink className="nav-link-icon" to="/" tag={Link}>
+                    <span className="nav-link-inner--text">PC Gamer</span>
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -103,7 +124,7 @@ class AdminNavbar extends React.Component {
                       <i className="fas fa-search" />
                     </InputGroupText>
                   </InputGroupAddon>
-                  <Input placeholder="Search" type="text" />
+                  <Input placeholder="Pesquisa" type="text" />
                 </InputGroup>
               </FormGroup>
             </Form>

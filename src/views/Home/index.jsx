@@ -10,7 +10,10 @@ import {
 import Header from "components/Header";
 import AuthFooter from "components/Footers/AuthFooter.jsx";
 import Spotlight from "components/Spotlight";
+import Bestseller from "components/Bestseller";
 import ForcaDeVendas from "./ForcaDeVendas";
+import Navbar from "components/Navbar";
+import './styles.scss';
 
 const items = [
   {
@@ -65,6 +68,7 @@ export default function Home() {
       <div className="main-content">
         <Header />
         <div>
+          <Navbar/>
           <Carousel
             activeIndex={activeIndex}
             next={next}
@@ -78,6 +82,9 @@ export default function Home() {
         </div>
         <ForcaDeVendas />
         <Spotlight />
+        <div>
+          <Bestseller />
+        </div>  
       </div>
       <AuthFooter />
     </>
