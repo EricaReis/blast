@@ -1,7 +1,7 @@
 {
-    "name": "argon-dashboard-react",
+    "name": "Blast",
     "version": "1.0.0",
-    "description": "React version of Argon Dashboard by Creative Tim",
+    "description": "Loja fictícia afim de teste de desenvolvimento",
     "main": "index.js",
     "repository": {
         "type": "git",
@@ -19,10 +19,7 @@
     ],
     "author": "Creative Tim",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/creativetimofficial/argon-dashboard-react/issues"
-    },
-    "homepage": "https://demos.creative-tim.com/argon-dashboard-react/",
+    "homepage": "https://blast-store.herokuapp.com/",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
