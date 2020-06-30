@@ -15,6 +15,8 @@ import {
 
 import './styles.scss';
 
+//Menu de categorias de produtos
+
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 

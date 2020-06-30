@@ -22,6 +22,8 @@ import {
 
 import './styles.scss';
 
+//Header desk e mobile, com menu NavbarToggler no mobile e Navbar no desk por motivos de responsividade
+
 class AdminNavbar extends React.Component {
   render() {
     return (

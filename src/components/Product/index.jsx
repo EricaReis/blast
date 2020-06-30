@@ -4,6 +4,7 @@ import { Card, CardImg, CardBody, CardTitle, CardDeck, CardColumns } from 'react
 
 import './styles.scss';
 
+//Card de produtos
 export default function Product({ product }) {
     const { name, price, promotionalprice, img } = product;
     return (

@@ -15,6 +15,8 @@ import ForcaDeVendas from "./ForcaDeVendas";
 import Navbar from "components/Navbar";
 import './styles.scss';
 
+//Página principal com Carousel/Slider de Promos e anúncios internos
+
 const items = [
   {
     id: 1,

@@ -5,6 +5,8 @@ import Product from 'components/Product';
 import api from 'config/api';
 import './styles.scss'
 
+//Produtos de lançamentos pegando dados do mochAPI.io
+
 export default function Bestseller() {
     const [products, setProducts] = useState([]);
 
