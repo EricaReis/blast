@@ -30,7 +30,7 @@ const Example = (props) => {
               <NavLink className='color-text' href="/components/">Mouses</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className='color-text' href="https://github.com/reactstrap/reactstrap">Headsets</NavLink>
+              <NavLink className='color-text' href="/components/">Headsets</NavLink>
             </NavItem>
             <NavItem>
               <NavLink className='color-text' href="/components/">Teclados</NavLink>
